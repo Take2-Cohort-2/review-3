@@ -1,0 +1,63 @@
+div {
+  margin: 16px;
+  font-size: 24px;
+}
+
+.container1 {
+  display: flex;
+  border: 4px solid pink;
+}
+
+.container2 {
+  display: flex;
+  gap: 16px;
+  border: 4px solid pink;
+  margin: 16px;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 4px solid pink;
+  margin: 16px;
+  padding: 16px;
+}
+
+.container4 {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid pink;
+  padding: 0px 16px;
+}
+
+.container5 {
+  display: flex;
+  justify-content: flex-end;
+  border: 4px solid pink;
+  gap: 16px;
+  padding: 16px;
+}
+
+.container6 {
+  display: flex;
+  justify-content: space-evenly;
+  border: 4px solid pink;
+  gap: 16px;
+  padding: 0px 16px;
+}
+
+.container7 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 4px solid pink;
+  gap: 16px;
+  padding: 0px 16px;
+  width: 400px;
+  height: 400px;
+}
+
+img {
+  width: 100px;
+}
